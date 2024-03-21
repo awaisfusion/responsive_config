@@ -30,6 +30,8 @@ dependencies:
 Import the package in your Dart code.Find the usage below.
 
 ```dart
+import 'package:responsive_config/responsive_config.dart';
+
 class ExampleScreen extends StatelessWidget {
   const ExampleScreen({super.key});
 
