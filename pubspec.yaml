@@ -1,7 +1,7 @@
 name: responsive_config
 description: "A package for handling responsiveness in Flutter applications"
 version: 0.0.1
-homepage: 'https://github.com/mawais38'
+homepage: https://github.com/awaisfusion/responsive_config.git
 environment:
   sdk: '>=3.2.0 <4.0.0'
   flutter: ">=1.17.0"

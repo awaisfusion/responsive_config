@@ -18,9 +18,13 @@ Responsive Config is a Flutter package designed to simplify handling responsiven
 ### Installation
 To use this package, add `responsive_config` as a dependency in your `pubspec.yaml` file.
 
+
 ```yaml
 dependencies:
-  responsive_config: ^version_number
+  responsive_config:
+    git:
+      url: https://github.com/awaisfusion/responsive_config.git
+      ref: main
 ```
 ## Usage
 Import the package in your Dart code.Find the usage below.
