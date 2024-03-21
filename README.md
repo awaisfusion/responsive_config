@@ -35,8 +35,8 @@ class ExampleScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // You need to initialize SizeConfig before using it
-    SizeConfig().init(context);
+    // You need to initialize ResponsiveConfig before using it
+    ResponsiveConfig().init(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Example Screen'),
@@ -51,6 +51,15 @@ class ExampleScreen extends StatelessWidget {
             Text(
               'Proportionate Width: ${getProportionateScreenWidth(100)}',
             ),
+            Container(
+              height: getProportionateScreenHeight(150),
+              width: getProportionateScreenHeight(150),
+              color: Colors.redAccent,
+              child: Text(
+                'Test',
+                style: TextStyle(fontSize: getProportionateScreenWidth(50)),
+              ),
+            )
           ],
         ),
       ),

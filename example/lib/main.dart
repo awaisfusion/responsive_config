@@ -41,6 +41,15 @@ class ExampleScreen extends StatelessWidget {
             Text(
               'Proportionate Width: ${getProportionateScreenWidth(100)}',
             ),
+            Container(
+              height: getProportionateScreenHeight(150),
+              width: getProportionateScreenHeight(150),
+              color: Colors.redAccent,
+              child: Text(
+                'Test',
+                style: TextStyle(fontSize: getProportionateScreenWidth(50)),
+              ),
+            )
           ],
         ),
       ),
