@@ -41,6 +41,9 @@ class ExampleScreen extends StatelessWidget {
             Text(
               'Proportionate Width: ${getProportionateScreenWidth(100)}',
             ),
+            Text(
+              'Proportionate Width: ${getDeviceType()}',
+            ),
             Container(
               height: getProportionateScreenHeight(150),
               width: getProportionateScreenHeight(150),
